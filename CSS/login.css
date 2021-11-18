@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.banner{
+    object-fit: cover;
+    position: fixed;
+    overflow: hidden;
+    z-index: -1000;
+    top: 0;
+    left: 0;
+}
+.banner video{
+    width: 100%;
+    
+}
+::placeholder{
+    color: white
+}
+
+.forma input{
+    background-color: rebeccapurple;
+    border: none;
+    height: 30px;
+}
+

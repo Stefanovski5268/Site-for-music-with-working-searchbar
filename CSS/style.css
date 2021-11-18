@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+    background-color: #262626;
+}
+.banner{
+    object-fit: cover;
+    position: fixed;
+    overflow: hidden;
+    z-index: -1000;
+    top: 0;
+    left: 0;
+}
+.banner video{
+    width: 100%;
+    
+}
+
+.wrapper{
+    display: grid;
+    background-color: #c20492;
+    grid-template-columns:88% 6% 6%;
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+.wrapper .login {
+    background-color: #1f1f1f;
+    color: white;
+    font-family: Arial; 
+    
+}
+
+.wrapper .register {
+    background-color: #262626;
+    color: white;
+    font-family: Arial;
+    
+
+}
+
+.wrapper .login a{
+    color: white;
+    margin-top: 5%;
+    font-size: 14px;
+    
+}
+
+.wrapper .login  :hover{
+    color: magenta;
+}
+.wrapper .register :hover{
+    color: magenta;
+}
+
+
+.wrapper .register a{
+    color: white;
+        font-size: 14px;
+
+}
+
+.header{
+	color: white;
+	font-family: Arial;
+	font-style: italic;
+	letter-spacing: 2px;
+    margin-top: 1%;
+    font-size: 25px;
+	
+}
+.header span{
+    color: #1f1f1f;
+}
+.header a {
+    color: white;
+    
+    
+    
+    
+}
+
+.wrapper-1 li :hover{
+    color: magenta;
+    font-size: 18px;
+}
+
+.wrapper-1{
+    display: grid;
+    grid-template-columns: 31.5% 31.75% 31.5%;
+    margin-left: 5%;
+}
+.wrapper-1 li{
+    color: white;
+    font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    font-size: 14px;
+        height: 10px;
+
+}
+
+.wrapper-1 > div{
+    background-color: #262626;
+    padding: 1em;
+}
+.wrapper-1 >div:nth-child(odd){
+    background-color: #1f1f1f;
+}
+
+
+.footer-quan{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #101010;
+	color: white;
+	text-align: center;
+    position: fixed;
+}
+
+.footer-quan p{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.search input{
+    height: 40px;
+    margin-left: 20%;
+    margin-top: 20%;
+    background-color: magenta;
+    border: none;
+    position: absolute;
+}
+.submit input{
+    position: relative;
+    height: 40px;
+    width: 5%;
+    background-color: rebeccapurple;
+    border: none;
+    margin-left: 70%;
+    color: white;
+    margin-top: 20%;
+    border-radius: 0% 40% 40% 0%;
+}
+.submit :hover{
+    background-color: #773bb3;
+}
+::placeholder{
+        color: white;
+    font-family: Arial;
+}
+
